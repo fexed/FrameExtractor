@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Builda con PyInstaller",
+			"command": "python",
+			"args": ["-m", "PyInstaller", "-i", "icon.ico", "--add-binary", "ffmpeg.exe;.", "--onefile",  "frameextractor.py"],
+			"problemMatcher": []
+		}
+	]
+}
